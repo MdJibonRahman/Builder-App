@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {max-width: 100%;
+    height: auto;
+}
+body {font-family: 'Montserrat', sans-serif;font-size: 14px;font-weight: 400}
+h1, h2, h3, h4, h5, h6 {font-weight: 700;margin: 0 0 15px}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.fix {overflow: hidden}
+
+
+.main {width: 940px;margin: 0 auto}
+
+.welcome-area {
+    background: url(images/welcome-bg.jpg) no-repeat scroll right bottom;
+    background-size: cover;
+}
+
+
+.mainmenu ul {
+    list-style: outside none none;
+}
+.mainmenu ul li {
+    display: inline-block;
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    padding: 11px;
+    text-decoration: none;
+}
+.header {
+    padding-top: 30px;
+   
+}
+.welcome-text {
+    color: #fff;
+    padding-bottom: 360px;
+    padding-top: 180px;
+    text-align: center;
+}
+.welcome-text h2 {
+    font-size: 34px;
+}
+.hero-btn {
+    background: #41cbca none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.our-services {
+    margin-bottom: 150px;
+    margin-left: -20px;
+    margin-top: 80px;
+}
+.service-title h2 {
+    color: #60666b;
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+}
+.service-title {
+    border-left: 1px solid #41cbca;
+    color: #acb5bc;
+    font-style: italic;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.single-service-item.floatleft {
+}
+.single-service-item {
+    margin-left: 20px;
+    width: 300px;
+}
+
+.main-text {margin-bottom: 150px}
+
+.main-right-text {
+    color: #7c848b;
+    font-size: 15px;
+    line-height: 28px;
+    margin-left: 80px;
+    width: 320px;
+}
+.main-more-btn {
+    color: #3e4143;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+
+.footer-top-area {
+    background: #3b4148 none repeat scroll 0 0;
+    border-top: 5px solid #41cbca;
+    padding: 80px 0;
+}
+.footer-widgets {
+    margin-left: -50px;
+}
+.single-footer-widget {
+    margin-left: 50px;
+    width: 280px;
+}
+.single-footer-widget h3 {
+    color: #5c666e;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.single-footer-widget ul {
+    line-height: 35px;
+    list-style: outside none none;
+}
+.single-footer-widget a {
+    color: #adb6be;
+    text-decoration: none;
+}
+.copyright-area {
+    background: #31353a none repeat scroll 0 0;
+    color: #5d6369;
+    font-size: 13px;
+    padding: 15px 0;
+}
